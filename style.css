@@ -1,0 +1,24 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body,
+html ,
+.main-container ,
+#myCanvas{
+  height: 100%;
+  width: 100%;
+}
+#myCanvas {
+  -webkit-transition: 6s background-color ease;
+  transition: 6s background-color ease;
+}
+.tools {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  padding: 10px;
+}
